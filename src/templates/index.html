@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F4F9F4" />
+
+    <link rel="icon" href="./favicon.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <title>Restarurant App</title>
+  </head>
+  <body>
+    <header id="header">
+      <a href="#main" tabindex="0" class="skip-link" id="skip-link"
+        >Menuju ke konten</a
+      >
+      <div class="title__container" id="root" tabindex="0">
+        <h1 class="title">Foodies App</h1>
+      </div>
+      <div class="hamburger__container">
+        <button
+          class="hamburger"
+          id="hamburger"
+          href="#"
+          aria-label="Foodies App"
+        >
+          ☰
+        </button>
+      </div>
+      <nav class="nav__bar" id="drawer">
+        <ul class="list__container">
+          <li class="list__item"><a href="#/home">Home</a></li>
+          <li class="list__item"><a href="#/favorites">Favorite</a></li>
+          <li class="list__item">
+            <a target="_blank" href="https://www.instagram.com/rifkyyyalfrs/"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="hero__container" id="hero__container">
+        <picture class="hero-image">
+          <source media="(max-width: 600px)" srcset="./images/hero-image_4-small.jpg">
+          <img src="./images/hero-image_2-large.jpg" alt="hero image poster">
+        </picture>
+        <label for="#hero__caption"></label>
+        <div class="hero__caption" id="hero__caption" tabindex="0">
+          <h3>
+            Menyediakan Berbagai Hidangan Yang Anda Inginkan Dari Seluruh Dunia
+          </h3>
+        </div>
+      </div>
+    </header>
+
+    <main id="main"></main>
+
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <p class="footer-content" tabindex="0">
+          copyright &copy; - Foodies App
+        </p>
+      </div>
+    </footer>
+
+    <!-- <script src="../scripts/index.js" type="module"></script> -->
+  </body>
+</html>
